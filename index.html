@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <script src="http://www.google.com/uds/api?file=uds.js&v=1.0&key=YOURKEYHERE" type="text/javascript"></script>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -16,6 +17,23 @@
   <body>
 <br><br><br>
 <center><h1>ERLEND ER HOMO</h1></center>
+
+<script language="Javascript" type="text/javascript">
+ //<![CDATA[
+
+     // create a search object
+
+     searchControl.addSearcher(new GwebSearch());
+
+     // tell Google where to draw the searchbox
+
+     searchControl.draw(document.getElementById("search-box"));
+   }
+
+   GSearch.setOnLoadCallback(OnLoad);
+
+  //]]>
+</script>
 
 
   </body>
